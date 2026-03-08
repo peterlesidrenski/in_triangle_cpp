@@ -10,11 +10,11 @@ int main() {
     double x1, y1, x2, y2, x3, y3;
     double px, py;                 
 
-    cout << "Enter coordinates for Vertex 1 (x1 y1): ";
+    cout << "Enter coordinates for point 1 (x1 y1): ";
     cin >> x1 >> y1;
-    cout << "Enter coordinates for Vertex 2 (x2 y2): ";
+    cout << "Enter coordinates for point 2 (x2 y2): ";
     cin >> x2 >> y2;
-    cout << "Enter coordinates for Vertex 3 (x3 y3): ";
+    cout << "Enter coordinates for point 3 (x3 y3): ";
     cin >> x3 >> y3;
 
     double area = getSide(x1, y1, x2, y2, x3, y3);
@@ -41,4 +41,5 @@ int main() {
     }
 
     return 0;
+
 }
